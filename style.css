@@ -1,0 +1,267 @@
+body{
+  background-color: #080F17;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 48px;
+  border-bottom: 2px solid #FFFFFF33;
+  margin-bottom:10px;
+  padding-top:10px;
+  padding-bottom:15px;
+  color: white;
+  align-items: center;
+
+}
+.logo{
+  
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  align-items: center;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 42px;
+  letter-spacing: -4%;
+}
+
+.navigation a{
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -1%;
+  color: #D6DDE6;
+  margin: 0 15px;
+ 
+
+
+}
+main{
+  padding: 0 48px;
+}
+.text{
+  height:360px;
+  width:1344px;
+}
+.text p{
+  color:#D6DDE6;
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:700px;
+  font-size: 120px;
+  line-height: 120px;
+  letter-spacing: -2%;
+  text-align: center;
+  
+}
+/* .text img{
+  width: 1344px;
+  height: 672px;
+  border-radius: 36px;
+  border: 1.5px solid rgba(214, 221, 230, 0.2);
+  background: url('hero-steampunk.jpg') center/cover no-repeat;  
+}
+
+.divclass_2{
+  color: #D6DDE6;
+  font-family: "Plus Jakarta Sans",sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -1%;
+  margin-top:100px ;
+}
+.l1{
+  width: 416px;
+  height: 420px;
+  border-radius: 12px;
+  border: 1.5px solid #D6DDE633;
+} */
+
+.img1 img{
+  margin-left:30px;
+  width:1344px;
+  height:672px;
+  border-radius: 36px;
+  margin-top: 50px;
+}
+.showcase{
+  color:white;
+  margin-left: 46px;
+  padding-top: 48px;
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size:34px;
+  line-height: 40px;
+
+}
+*{
+  color:white;
+}
+.photo-ban{
+  padding-left: 48px;
+  padding-right: 48px;
+  /* width:1344px;
+  height:300px; */
+  display: grid;
+  grid-template-columns: repeat(3,4fr);
+  padding-bottom: 40px;
+  border-bottom: 1.5px solid #FFFFFF33;
+  
+
+}
+.photo-ban img{
+  width:416px;
+  height:420px;
+  border-radius: 12px;
+}
+.photo-ban p{
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+ 
+  font-size:20px;
+  color:#D6DDE6;
+  line-height: 24px;
+
+}
+.photo-ban span{
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+ 
+  font-size:15px;
+  color:#D6DDE6;
+  line-height: 20px;
+}
+.photo-ban .vp{
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size:15px;
+  color:black;
+  line-height: 20px;
+  height:26px;
+  width:114px;
+  border-radius: 12px;
+  padding: 8px 16px 8px 16px;
+  background-color: #A7EE43;
+  text-align: center;
+  margin-top: 30px;
+}
+.tx2{
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.tx2 p{
+  height:208px;
+  width:900px;
+  font-family: "Plus Jakarta Sans";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size:48px;
+  line-height:52px ;
+  
+  text-align: center;
+  padding-bottom: 50px;
+
+  
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+}
+.contact p{
+  font-family: "Plus Jakarta Sans";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size:28px;
+  line-height: 32px;
+  letter-spacing: -1%;
+  color:#D6DDE6;
+}
+.contact .p2{
+  font-family: "Plus Jakarta Sans";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size:17px;
+  line-height: 28px;
+  height:56px;
+  width:610px;
+}
+
+footer{
+  padding:0 48px;
+
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  padding-top:56px ;
+  padding-bottom: 24px;
+
+}
+.copyright p{
+  font-family: "Plus Jakarta Sans";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size:28px;
+  line-height: 32px;
+  color:#D6DDE69E;
+}
+.copyright .contact{
+  width:120px;
+  height:38px;
+  border:1.5px solid #D6DDE633;
+  padding:16px 24px 10px 30px;
+  text-align: center;
+  border-radius: 12px;
+  color:#D6DDE6;
+
+}
+.copyright{
+  padding-top: 10px;
+}
+@media (max-width: 480px) {
+  .logo {
+      font-size: 32px;
+  }
+  .navigation a {
+      font-size: 16px;
+      margin: 3px;
+  }
+  .text p {
+      font-size: 50px;
+      line-height: 60px;
+  }
+  .showcase {
+      font-size: 24px;
+  }
+  .tx2 p {
+      font-size: 24px;
+      line-height: 30px;
+  }
+  .photo-ban {
+      grid-template-columns: 1fr;
+      gap: 10px;
+  }
+  .contact p {
+      font-size: 20px;
+  }
+  .copyright p {
+      font-size: 18px;
+  }
+}
